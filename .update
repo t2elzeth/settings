@@ -1,0 +1,20 @@
+#!/bin/bash
+
+RED='\033[0;31m'
+NC='\033[0m' ### No Color
+
+echo "${RED}Beginning the update process."
+echo "${RED}Beginning the update process.."
+echo "${RED}Beginning the update process..."
+
+echo "${RED}----------UPDATING----------------------------${NC}"
+sudo apt update -y
+
+echo "${RED}----------UPGRADING---------------------------${NC}"
+sudo apt upgrade -y
+
+echo "${RED}----------FULL-UPGRADING----------------------${NC}"
+sudo apt full-upgrade -y
+
+echo "${RED}----------AUTOREMOVING------------------------${NC}"
+sudo apt autoremove -y

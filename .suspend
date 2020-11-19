@@ -1,0 +1,2 @@
+echo "Suspending..."
+systemctl suspend
