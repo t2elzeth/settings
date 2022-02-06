@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=PycharmPro
+Exec=/home/ulukman/third-party/pycharm-2020.3.2/bin/pycharm.sh
+Icon=/home/ulukman/third-party/pycharm-2020.3.2/bin/pycharm.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

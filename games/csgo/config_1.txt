@@ -1,0 +1,57 @@
+cfgver 1;unbindall;bind 0 slot10;bind 1 slot1;bind 2 slot2;bind 3 "slot3;cl_righthand 0";bind 4 "slot4;cl_righthand 0";bind 5 slot5;bind 6 slot6;bind 7 slot7;bind 8 slot8;bind 9 slot9;bind a "+moveleft;r_cleardecals 1";bind b buymenu;bind c noclip
+
+bind d "+moveright;r_cleardecals 1";bind e +use;bind f radio1;bind g drop;bind h "say press F to pay report";bind i show_loadout_toggle;bind j "use weapon_c4;drop";bind m teammenu;bind n sv_rethrow_last_grenade;bind q lastinv;bind r +reload
+
+bind s "+back;r_cleardecals 1";bind t +spray_menu;bind u messagemode2;bind v +voicerecord;bind w "+forward;r_cleardecals 1";bind x slot12;bind y messagemode;bind z +radialradio2;bind KP_END "buy vesthelm";bind KP_DOWNARROW "buy defuser"
+
+bind KP_PGDN "buy vest";bind KP_5 "buy hegrenade";bind KP_RIGHTARROW "buy decoy";bind KP_HOME "buy flashbang";bind KP_UPARROW "buy smokegrenade";bind KP_PGUP "buy molotov";bind KP_MULTIPLY "buy p250"
+
+bind KP_MINUS "sv_showimpacts 0;sv_grenade_trajectory 0";bind KP_PLUS "sv_showimpacts 1;sv_grenade_trajectory 1"
+
+bind KP_ENTER "record record.record;ent_fire smokegrenade_projectile kill;snd_playsounds Music.StopAllExceptMusic;stop;snd_playsounds Buttons.snd37";bind "`" toggleconsole;bind "," bot_add_ct;bind . "toggle bot_duck 1 0";bind "/" bot_place
+
+bind "\" "say "❤"";bind SPACE +jump;bind TAB +showscores;bind ESCAPE cancelselect;bind DEL mute;bind PAUSE pause;bind SHIFT +speed;bind CTRL +duck;bind F1 autobuy;bind F2 rebuy;bind F3 "buy ak47;buy m4a4";bind F4 "buy deagle";bind F5 "buy awp"
+
+bind F6 "buy ssg08";bind F7 "buy aug";bind F8 "buy p90";bind MOUSE1 +attack;bind MOUSE2 +attack2;bind MOUSE3 player_ping;bind MOUSE4 clutch_mode_toggle;bind MOUSE5 "+jump;-attack;-jump";bind MWHEELDOWN +jump;bugreporter_username ""
+
+cachedvalue_count_partybrowser 1621397772;cachedvalue_count_teammates 1621400857;cc_lang "";cl_autowepswitch 0;cl_bobamt_lat .33;cl_bobamt_vert .14;cl_buywheel_donate_key 0;cl_buywheel_nomousecentering 0;cl_buywheel_nonumberpurchasing 0
+
+cl_chatfilter_version 1;cl_clanid 9254830;cl_crosshair_drawoutline 0;cl_crosshair_dynamic_maxdist_splitratio .3;cl_crosshair_friendly_warning 1;cl_crosshairalpha 255;cl_crosshaircolor 4;cl_crosshaircolor_b 0;cl_crosshaircolor_g 0;cl_crosshaircolor_r 255
+
+cl_crosshairdot 0;cl_crosshairgap -3;cl_crosshairsize .5;cl_crosshairstyle 5;cl_crosshairthickness 0;cl_detail_avoid_force .4;cl_detail_avoid_radius 64;cl_detail_avoid_recover_speed .25;cl_detail_max_sway 5;cl_disable_round_end_report 0
+
+cl_embedded_stream_audio_volume 60;cl_embedded_stream_audio_volume_xmaster 1;cl_grass_mip_bias -0.5;cl_hide_avatar_images 1;cl_hud_color 7;cl_invites_only_friends 0;cl_invites_only_mainmenu 0;cl_itemimages_dynamically_generated 2
+
+cl_observed_bot_crosshair 0;cl_parachute_autodeploy 1;cl_ping_fade_deadzone 60;cl_ping_fade_distance 300;cl_promoted_settings_acknowledged "1:1608373479104";cl_quickinventory_line_update_speed 65.0f;cl_radial_radio_tab_0_text_1 "#Chatwheel_requestspend"
+
+cl_radial_radio_tab_0_text_2 "#Chatwheel_requestweapon";cl_radial_radio_tab_0_text_3 "#Chatwheel_bplan";cl_radial_radio_tab_0_text_4 "#Chatwheel_followingyou";cl_radial_radio_tab_0_text_5 "#Chatwheel_midplan"
+
+cl_radial_radio_tab_0_text_6 "#Chatwheel_followme";cl_radial_radio_tab_0_text_7 "#Chatwheel_aplan";cl_radial_radio_tab_0_text_8 "#Chatwheel_requestecoround";cl_radial_radio_tab_1_text_1 "#Chatwheel_enemyspotted"
+
+cl_radial_radio_tab_1_text_2 "#Chatwheel_needbackup";cl_radial_radio_tab_1_text_3 "#Chatwheel_bplan";cl_radial_radio_tab_1_text_4 "#Chatwheel_bombcarrierspotted";cl_radial_radio_tab_1_text_5 "#Chatwheel_multipleenemieshere"
+
+cl_radial_radio_tab_1_text_6 "#Chatwheel_sniperspotted";cl_radial_radio_tab_1_text_7 "#Chatwheel_aplan";cl_radial_radio_tab_1_text_8 "#Chatwheel_inposition";cl_radial_radio_tab_2_text_1 "#Chatwheel_affirmative"
+
+cl_radial_radio_tab_2_text_2 "#Chatwheel_negative";cl_radial_radio_tab_2_text_3 "#Chatwheel_compliment";cl_radial_radio_tab_2_text_4 "#Chatwheel_thanks";cl_radial_radio_tab_2_text_5 "#Chatwheel_cheer";cl_radial_radio_tab_2_text_6 "#Chatwheel_peptalk"
+
+cl_radial_radio_tab_2_text_7 "#Chatwheel_sorry";cl_radial_radio_tab_2_text_8 "#Chatwheel_sectorclear";cl_radial_radio_version_reset 12;cl_show_observer_crosshair 2;cl_showloadout 0;cl_sniper_delay_unscope 0;cl_spec_mode 6;cl_teamid_overhead_mode 2
+
+cl_versus_intro 1;con_allownotify 1;con_enable 1;demo_index 0;demo_index_max_other 500;gameinstructor_enable 0;key_bind_version 5;mat_enable_uber_shaders 1;mat_texture_list_content_path "";mm_server_search_lan_ports "27015,27016,27017,27018,27019,27020"
+
+name garbageoff;net_graph 1;net_graphproportionalfont .5;password "";player_competitive_maplist_2v2_9_0_24235B08 "mg_de_calavera,mg_de_pitstop,mg_de_vertigo,mg_de_inferno,mg_de_overpass,mg_de_cbble,mg_de_train,mg_de_shortnuke,mg_de_shortdust,mg_de_lake"
+
+player_competitive_maplist_8_9_0_5C054B51 "mg_de_mirage,mg_de_inferno";player_nevershow_communityservermessage 1;player_survival_list_9_0_B "mg_dz_blacksite,mg_dz_sirocco,mg_dz_frostbite";player_teamplayedlast 2
+
+player_wargames_list2_9_0_E04 "mg_skirmish_flyingscoutsman,mg_skirmish_armsrace,mg_skirmish_demolition,mg_skirmish_retakes";r_player_visibility_mode 1;sensitivity 1.2;snd_deathcamera_volume .02731;snd_dzmusic_volume .019302;snd_menumusic_volume .02731
+
+snd_mix_async_onetime_reset 1;snd_music_selection 2;snd_music_volume_onetime_reset_2 1;snd_musicvolume_multiplier_inoverlay 0;snd_mute_mvp_music_live_players 1;snd_mvp_volume 0;snd_tensecondwarning_volume .059138;sound_device_override "";store_version 1
+
+sv_skyname sky_dust;triple_monitor_mode 0;trusted_launch 1;trusted_launch_once 0;ui_deepstats_radio_heat_figurine 0;ui_deepstats_radio_heat_tab 0;ui_deepstats_radio_heat_team 0;ui_deepstats_toplevel_mode 0;ui_inventorysettings_recently_acknowledged ""
+
+ui_mainmenu_bkgnd_movie_8C5FB98B ancient;ui_nearbylobbies_filter3 competitive;ui_news_last_read_link "https:;ui_playsettings_maps_listen_competitive mg_de_mirage;ui_playsettings_maps_listen_scrimcomp2v2 mg_de_shortnuke
+
+ui_playsettings_maps_workshop "@workshop/1202643420/yprac_dust2";ui_playsettings_mode_listen competitive;ui_playsettings_mode_official_v20 competitive;ui_popup_weaponupdate_version 2;ui_show_subscription_alert 0
+
+ui_steam_overlay_notification_position topright;ui_vanitysetting_loadoutslot_ct smg1;ui_vanitysetting_loadoutslot_t smg2;viewmodel_fov 68;viewmodel_offset_x 2.5;viewmodel_offset_y 0;viewmodel_offset_z -1.5;viewmodel_presetpos 3;viewmodel_recoil 0
+
+voice_caster_scale 0;voice_scale .3;volume .8
