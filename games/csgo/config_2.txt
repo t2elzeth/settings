@@ -8,7 +8,7 @@ bind "\" "say "❤"";bind SPACE +jump;bind F1 autobuy;bind F2 rebuy;bind F3 "buy
 
 bind F6 "buy ssg08";bind F7 "buy aug";bind F8 "buy p90";bind MOUSE4 clutch_mode_toggle;bind MOUSE5 "+jump;-attack;-jump";bind MWHEELDOWN +jump;unbind MWHEELUP;
 
-cl_clanid 35996384;cl_crosshair_drawoutline 0;cl_crosshair_dynamic_maxdist_splitratio .3;cl_crosshairalpha 255;cl_crosshaircolor 4;cl_crosshaircolor_b 0;cl_crosshaircolor_g 0;cl_crosshaircolor_r 255
+cl_clanid 35996384;cl_crosshair_drawoutline 0;cl_crosshair_dynamic_maxdist_splitratio .3;cl_crosshairalpha 255;cl_crosshaircolor 0;cl_crosshaircolor_b 0;cl_crosshaircolor_g 0;cl_crosshaircolor_r 255
 
 cl_crosshairdot 0;cl_crosshairgap -3;cl_crosshairsize .5;cl_crosshairstyle 5;cl_crosshairthickness 0;viewmodel_fov 68;viewmodel_offset_x 2.5;viewmodel_offset_y 0;viewmodel_offset_z -1.5;viewmodel_presetpos 3;viewmodel_recoil 0;
 
