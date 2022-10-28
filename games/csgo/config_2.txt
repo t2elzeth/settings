@@ -4,7 +4,7 @@ bind a "+moveleft;r_cleardecals 1";bind w "+forward;r_cleardecals 1";bind s "+ba
 
 bind KP_PGDN "buy vest";bind KP_5 "buy hegrenade";bind KP_RIGHTARROW "buy decoy";bind KP_HOME "buy flashbang";bind KP_UPARROW "buy smokegrenade";bind KP_PGUP "buy molotov";bind KP_MULTIPLY "buy p250"
 
-bind "\" "say "❤"";bind SPACE +jump;bind F1 autobuy;bind F2 rebuy;bind F3 "buy ak47;buy m4a4";bind F4 "buy deagle";bind F5 "buy awp";net_graph 1;net_graphproportionalfont .5;
+bind "\" "say ❤";bind SPACE +jump;bind F1 autobuy;bind F2 rebuy;bind F3 "buy ak47;buy m4a4";bind F4 "buy deagle";bind F5 "buy awp";net_graph 1;net_graphproportionalfont .5;
 
 bind F6 "buy ssg08";bind F7 "buy aug";bind F8 "buy p90";bind MOUSE4 clutch_mode_toggle;bind MOUSE5 "+jump;-attack;-jump";bind MWHEELDOWN +jump;unbind MWHEELUP;
 
