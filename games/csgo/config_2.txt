@@ -13,3 +13,5 @@ cl_clanid 35996384;cl_crosshair_drawoutline 0;cl_crosshair_dynamic_maxdist_split
 cl_crosshairdot 0;cl_crosshairgap -3;cl_crosshairsize .5;cl_crosshairstyle 5;cl_crosshairthickness 0;viewmodel_fov 68;viewmodel_offset_x 2.5;viewmodel_offset_y 0;viewmodel_offset_z -1.5;viewmodel_presetpos 3;viewmodel_recoil 0;
 
 cl_hide_avatar_images 1;cl_hud_color 7;snd_menumusic_volume .02731;cl_autowepswitch 0;cl_bobamt_lat .33;cl_bobamt_vert .14;snd_mvp_volume 0;snd_tensecondwarning_volume .059138;
+
+cl_hud_radar_scale "1.1";cl_radar_always_centered "0";cl_radar_icon_scale_min "0.7";cl_radar_rotate "1";cl_radar_scale "0.3"
